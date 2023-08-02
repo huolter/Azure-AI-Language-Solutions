@@ -1,4 +1,4 @@
-# Azure Language Solutions Example
+# Azure Language Solutions Examples
 
 This repository provides examples and code samples demonstrating how to leverage Azure Language Solutions to solve natural language processing (NLP) tasks using various Azure services.
 
