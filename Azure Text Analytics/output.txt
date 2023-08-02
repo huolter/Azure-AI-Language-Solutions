@@ -1,0 +1,237 @@
+
+-------------
+text1.txt
+
+Gatsby believed in the green light, the orgastic future that year by year recedes before us. It eluded us then, but that’s no matter—tomorrow we will run faster, stretch out our arms farther. . . . And then one fine morning—So we beat on, boats against the current, borne back ceaselessly into the past.
+
+ English
+
+Sentiment: positive
+
+Key Phrases:
+        green light
+        orgastic future
+        Gatsby
+        year
+        arms
+        fine
+        boats
+        current
+        past
+
+Entities
+        Gatsby (Person)
+        that year (DateTime)
+        tomorrow (DateTime)
+        one (Quantity)
+        morning (DateTime)
+        boats (Product)
+
+-------------
+text2.txt
+
+Go back?” he thought. “No good at all! Go sideways? Impossible! Go forward? Only thing to do! On we go!” So up he got, and trotted along with his little sword held in front of him and one hand feeling the wall, and his heart all of a patter and a pitter.
+
+ English
+
+Sentiment: mixed
+
+Key Phrases:
+        little sword
+        one hand
+        thing
+        front
+        wall
+        heart
+        patter
+        pitter
+
+Entities
+        sword (Product)
+        one (Quantity)
+
+-------------
+text3.txt
+
+About 2 years ago I bought 3 pairs of these very same scissors. I was so pleased with them that I just bought 3 more pairs. The major qualities that make them so great is they are made of a very high quality steel that cuts & cuts without any detectable loss of sharpness. They cut through paper like butter, and can make extremely straight cuts with just a fine, thin pencil line as your guide. I now keep two scissors in the kitchen, one in my office, one in my wife's desk area, one in my tool closet and and one in our living room bar area.
+
+
+ English
+
+Sentiment: positive
+
+Key Phrases:
+        fine, thin pencil line
+        living room bar area
+        high quality steel
+        desk area
+        same scissors
+        major qualities
+        detectable loss
+        two scissors
+        tool closet
+        straight cuts
+        3 pairs
+        sharpness
+        paper
+        butter
+        guide
+        kitchen
+        office
+        wife
+
+Entities
+        2 years ago (DateTime)
+        3 (Quantity)
+        scissors (Product)
+        3 (Quantity)
+        steel (Product)
+        paper (Product)
+        butter (Product)
+        pencil (Product)
+        now (DateTime)
+        two (Quantity)
+        scissors (Product)
+        kitchen (Location)
+        one in (Quantity)
+        office (Location)
+        one in (Quantity)
+        wife (PersonType)
+        desk area (Location)
+        one in (Quantity)
+        tool closet (Location)
+        one in (Quantity)
+        living room bar area (Location)
+
+-------------
+text4.txt
+
+Están muy, muy afilados, pero también lo es el borde exterior; por supuesto, no tan afilados como el filo, pero debes tener cuidado al usarlos o al cogerlos por la parte metálica. Utilicé un par para cortar tela elástica porque mis tijeras de coser Circo se estropeaban. Las cuchillas enteras cortan la tela, a diferencia de mis tijeras de coser, que a veces solo cortan con la punta de las cuchillas.
+
+
+ Spanish
+
+Sentiment: negative
+
+Key Phrases:
+        tela elástica
+        borde exterior
+        metálica
+        filo
+        cuidado
+        parte
+        tijeras
+        Circo
+        cuchillas
+        diferencia
+        coser
+        punta
+
+Entities
+        par (Product)
+        tela elástica (Product)
+        tijeras de coser (Product)
+        Circo (Organization)
+        cuchillas (Product)
+        tela (Product)
+        tijeras de coser (Product)
+        cuchillas (Product)
+
+-------------
+text5.txt
+
+Apenas 15 meses después de que saltara el caso Pegasus con el espionaje al móvil de Pedro Sánchez, el presidente del Gobierno en funciones ha aparecido de vacaciones en Marruecos. Justamente el país al que la Unión Europea ha vinculado directamente con ese espionaje que también afectó a los teléfonos de los ministros del Interior, Fernando Grande Marlaska, y de Defensa, Margarita Robles.
+
+
+ Spanish
+
+Sentiment: neutral
+
+Key Phrases:
+        Unión Europea
+        Fernando Grande Marlaska
+        Pedro Sánchez
+        país
+        móvil
+        teléfonos
+        Margarita Robles
+        caso
+        Pegasus
+        espionaje
+        presidente
+        Gobierno
+        funciones
+        vacaciones
+        Marruecos
+        ministros
+        Interior
+        Defensa
+
+Entities
+        15 (Quantity)
+        móvil (Product)
+        Pedro Sánchez (Person)
+        presidente (PersonType)
+        Gobierno (PersonType)
+        Marruecos (Location)
+        Unión Europea (Organization)
+        espionaje (Skill)
+        teléfonos (Product)
+        ministros del Interior (PersonType)
+        Fernando Grande Marlaska (Person)
+        Margarita Robles (Person)
+
+-------------
+text6.txt
+
+Louis de Pointe du Lac était un jeune propriétaire de domaine agricole, la Pointe-du-lac, près de La Nouvelle-Orléans en 1791. Après le décès en couches de sa femme, il rencontre un vampire, Lestat de Lioncourt, qui lui offre l'immortalité, en échange d'une vie luxueuse de colon français. Après avoir profité de son dernier coucher de soleil, Louis est presque vidé de son sang par Lestat, qui lui offre ensuite sa propre substance de vampire. La vie de mortel de Louis est alors terminée. Ses sens sont décuplés, il découvre un monde aux senteurs, aux sons inédits, mais une vie fondée sur la mort des autres. Ceux qui font don de leur sang contre leur gré.
+
+ French
+
+Sentiment: negative
+
+Key Phrases:
+        Pointe du Lac
+        jeune propriétaire
+        décès
+        colon français
+        La Nouvelle-Orléans
+        La vie
+        domaine agricole
+        dernier coucher
+        propre substance
+        vie luxueuse
+        Louis
+        Pointe-du-lac
+        couches
+        femme
+        vampire
+        Lestat
+        Lioncourt
+        immortalité
+        échange
+        soleil
+        sang
+        mortel
+        sens
+        monde
+        senteurs
+        sons
+        don
+        gré
+
+Entities
+        Louis de Pointe du Lac (Person)
+        propriétaire (PersonType)
+        Pointe-du-lac (Location)
+        Nouvelle-Orléans (Location)
+        1791 (DateTime)
+        le (Quantity)
+        décès en couches (Event)
+        femme (PersonType)
+        Lestat de Lioncourt (Person)
+        colon français (PersonType)
+        Louis (Person)
+        Lestat (Person)
+        substance de vampire (Product)
+        Louis (Person)

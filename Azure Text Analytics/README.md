@@ -2,41 +2,6 @@
 
 This folder contains a Python script that demonstrates how to use Azure Text Analytics services to perform language detection, sentiment analysis, key phrase extraction, and entity recognition on text documents. Azure Text Analytics is a powerful service that allows you to extract insights and valuable information from text data.
 
-## Prerequisites
-
-Before running the code, make sure you have the following:
-
-1. An Azure account: If you don't have one, you can sign up for a free trial at [azure.com/free](https://azure.com/free).
-
-2. Azure Text Analytics service: Set up the Text Analytics service in your Azure portal and obtain the endpoint and key credentials. You can find the endpoint and key in your Azure Text Analytics resource.
-
-3. Required libraries: Install the necessary libraries using pip by running the following command in your terminal:
-
-   ```
-   pip install azure-ai-textanalytics python-dotenv
-   ```
-
-## Getting Started
-
-1. Set up environment variables:
-
-   The script uses the `python-dotenv` library to read the Azure Text Analytics endpoint and key from the environment. Create a `.env` file in the project directory and add the following lines:
-
-   ```
-   COG_SERVICE_ENDPOINT=your_cog_service_endpoint
-   COG_SERVICE_KEY=your_cog_service_key
-   ```
-
-   Replace `your_cog_service_endpoint` and `your_cog_service_key` with the actual values from your Azure Text Analytics resource.
-
-2. Run the script:
-
-   Execute the Python script to analyze the text files located in the 'texts' folder. The script will output language detection results, sentiment analysis, key phrases, and recognized entities for each text document.
-
-   ```
-   python main.py
-   ```
-
 ## Sample Texts
 
 The 'texts' folder contains sample text files that the script will analyze. You can add your own text files to this folder for testing different texts.
@@ -49,6 +14,8 @@ The script will output the following information for each text document:
 - Sentiment: The sentiment analysis result, which can be positive, neutral, or negative.
 - Key Phrases: A list of important phrases extracted from the text.
 - Entities: Recognized entities (e.g., person names, locations, organizations) with their respective categories.
+
+Check output.txt for a sample of expected output
 
 ## Notes
 
