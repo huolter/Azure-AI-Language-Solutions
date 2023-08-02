@@ -41,7 +41,7 @@ def main():
                     file.write(translated_text.text)
 
     except HttpResponseError as exception:
-        print(f"Error Code: {exception.error.code}")
+        print(f"Error Code : {exception.error.code}")
         print(f"Message: {exception.error.message}")
 
 
